@@ -20,4 +20,4 @@ The bindings uses `#inclib` to work!
 
 ### Acknowledgements
 
-For unspecified reason drawing texts with `slText` function crashes the program, That's why commented in `helloworld.bas` example.
+For unspecified reason drawing texts with `slText` function causes crash, That's why commented in `helloworld.bas` example.
