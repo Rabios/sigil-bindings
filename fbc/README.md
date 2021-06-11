@@ -4,14 +4,14 @@ The bindings uses `#inclib` to work!
 
 ### Testing
 
-1. Grab shared and static libs of SIGIL from [downloads](http://www.libsigil.com/#download) So on Microsoft Windows download MinGW 32-bit or 64-bit compiled ones, For Linux it appears you need to compile source of SIGIL to use
+1. Grab shared and static libs of SIGIL from [downloads](http://www.libsigil.com/#download) So on Microsoft Windows download MinGW 32-bit or 64-bit compiled ones, For Linux it appears you need to compile source of SIGIL to use the bindings.
 2. Put `libsigil.a` or `libsigil.dll.a` inside FreeBASIC's `lib` folder beside other static libs.
 3. Put shared libs beside the files of this folder.
 4. Compile `helloworld.bas` via `fbc helloworld.bas` then run compiled executable and it should works!
 
 ### Instructions
 
-1. Grab shared and static libs of SIGIL from [downloads](http://www.libsigil.com/#download) So on Microsoft Windows download MinGW 32-bit or 64-bit compiled ones, For Linux it appears you need to compile source of SIGIL to use
+1. Grab shared and static libs of SIGIL from [downloads](http://www.libsigil.com/#download) So on Microsoft Windows download MinGW 32-bit or 64-bit compiled ones, For Linux it appears you need to compile source of SIGIL to use the bindings.
 2. Put `libsigil.a` or `libsigil.dll.a` inside FreeBASIC's `lib` folder beside other static libs.
 3. Put shared files beside the files of your game.
 4. Put `SIGIL.bi` beside your code or inside `inc` folder.
