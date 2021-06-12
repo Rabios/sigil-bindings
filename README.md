@@ -12,7 +12,7 @@ The bindings are divided into 5 folders for each language:
 4. `lua` for Lua bindings.
 5. `nim` for Nim bindings.
 
-Each folder has it's README and instructions about how to work within the bindings.
+Each folder has it's README which contains overview and instructions about how to work within the bindings.
 
 ### License
 
