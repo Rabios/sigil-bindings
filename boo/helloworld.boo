@@ -2,7 +2,7 @@ import sigil_boo
 
 // set up our window and a few resources we need
 slWindow(400, 400, "Simple SIGIL Example", 0)
-slSetFont(slLoadFont("jura.ttf"), 24)
+slSetFont(slLoadFont("../fonts/jura.ttf"), 24)
 slSetTextAlign(SIGIL.SL_ALIGN_CENTER)
 
 while (not slShouldClose() and not slGetKey(SIGIL.SL_KEY_ESCAPE)):

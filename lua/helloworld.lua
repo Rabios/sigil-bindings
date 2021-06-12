@@ -2,7 +2,7 @@ local sl = require("SIGIL")
 
 -- set up our window and a few resources we need
 sl.slWindow(400, 400, "Simple SIGIL Example", false)
-sl.slSetFont(sl.slLoadFont("jura.ttf"), 24)
+sl.slSetFont(sl.slLoadFont("../fonts/jura.ttf"), 24)
 sl.slSetTextAlign(sl.SL_ALIGN_CENTER)
 
 while ((sl.slShouldClose() ~= 1) and (sl.slGetKey(sl.SL_KEY_ESCAPE) ~= 1)) do

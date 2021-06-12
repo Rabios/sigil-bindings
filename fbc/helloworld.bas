@@ -2,7 +2,7 @@
 
 ' set up our window and a few resources we need
 slWindow(400, 400, "Simple SIGIL Example", false)
-slSetFont(slLoadFont("jura.ttf"), 24)
+slSetFont(slLoadFont("../fonts/jura.ttf"), 24)
 slSetTextAlign(SL_ALIGN_CENTER)
 
 
