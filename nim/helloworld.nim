@@ -20,7 +20,7 @@ while ((slShouldClose() == 0) and (slGetKey(SL_KEY_ESCAPE) == 0)):
   slText(200, 220, "Sprites, text, sound, input, and more!")
   slLine(48, 210, 352, 210)
 
-  slRender()     # draw everything
+  slRender()        # draw everything
 
 
-slClose()   # close the window and shut down SIGIL
+slClose()           # close the window and shut down SIGIL

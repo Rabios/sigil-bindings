@@ -5,7 +5,6 @@ slWindow(400, 400, "Simple SIGIL Example", false)
 slSetFont(slLoadFont("../fonts/jura.ttf"), 24)
 slSetTextAlign(SL_ALIGN_CENTER)
 
-
 while ((not slShouldClose() = 1) and (not slGetKey(SL_KEY_ESCAPE) = 1))
     ' background glow
     slSetForeColor(0.1, 0.9, 0.2, 0.4)
@@ -21,7 +20,7 @@ while ((not slShouldClose() = 1) and (not slGetKey(SL_KEY_ESCAPE) = 1))
     'slText(200, 220, "Sprites, text, sound, input, and more!")
     slLine(48, 210, 352, 210)
 
-    slRender()     ' draw everything
+    slRender()      ' draw everything
 wend
 
-slClose()        ' close the window and shut down SIGI
+slClose()           ' close the window and shut down SIGIL
